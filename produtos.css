@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Seoul', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+body {
+    font-family: 'Seoul';
+}
+
+@font-face {
+    font-family: 'Seoul';
+    src: url(SeoulHangang\ CBL\ Regular.ttf);
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #134681;
+    height: 41px;
+    color: white;
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    font: 700 20px white
+}
+
+span {
+    color: #134681;
+}
+
+
+.icone {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+}
+
+.conta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.box2 {
+    background-color: #CFDBE7;
+    height: 563px;
+    width: 210px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+.box1 {
+    background-color: #0F3365;
+    height: 563px;
+    width: 210px;
+    margin-top: 25px;
+}
+
+.carro {
+    margin-top: 25px;
+    width: 1126px;
+    height: 563px;
+    align-items: center;
+    display: flex;
+}
+
+.NossosProdutos {
+    color: #000;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.produtos1 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.roda {
+    width: 192px;
+    height: 200px;
+    padding: 35px;
+}
+
+.produtos2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.produtos3  {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cada {
+    border: 4px solid #0F3365;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    margin: 20px;
+}
+
+.pneu2 {
+    padding: 20px;
+    font: 700 20px black;
+}
+
+.pneu3 {
+    padding: 20px;
+    font: 700 20px black;
+}
+
+.pneu4 {
+    padding: 20px;
+    font: 700 20px black;
+}
+
+.cartao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.cartaoIMG {
+    width: 820px;
+    height: 505px;
+}
+
+.pagamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #134681;
+    height: 505px;
+    width: 800px;
+}
+
+span3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.rodape {
+    width: 200px;
+    height: auto;
+}
+
+.direitos {
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box5 {
+    width: 20px;
+    height: 290px;
+    position: absolute;
+    left: 1320px;
+    top: 497px;
+    background-color: #CFDBE7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #demo {
+    color: #0F3365;
+    font-size: 18px;
+  }
+  .countdown {
+    margin-top: 30px;
+  }
+  
+  .progress-bar {
+    width: 80%;
+    background-color: #9e9e9e;
+    border-radius: 5px;
+    margin: 20px auto;
+  }
+  
+  #progress {
+    background-color: #134681;
+    height: 20px;
+    border-radius: 5px;
+    width: 0%;
+    transition: width 1s ease-in-out;
+  }
+  
+  .Contador {
+    display: inline-block;
+    margin: 0 0.5rem;
+    font: 600 25px black;
+    padding: 10px;
+  
+    animation: flash infinite; 
+    animation-duration: 2s; 
+    margin-top: 20px;
+  }
+
+
+/* Estilos para dispositivos com largura máxima de 376px */
+@media screen and (max-width: 376px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    body {
+        font-family: 'Seoul';
+    }
+
+    .topo {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 150px;
+        height: auto;
+        margin: 10px auto;
+        display: none;
+    }
+
+    .cabeçalho {
+        display: flex;
+        text-align: center;
+        font-size: 16px;
+        justify-content: space-evenly;
+    }
+
+    .icone {
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+    }
+
+    .imagem1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        flex-wrap: wrap;
+    }
+
+    .box1 {
+        display: none;
+    }
+    .box2 {
+        width: calc(50% - 5px);
+        height: 300px;
+        margin-top: 10px;
+        margin-right: 5px;
+        display: none;
+    }
+
+    .carro {
+        margin-top: 10px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .NossosProdutos {
+        color: #000;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+    .produtos1,
+    .produtos2,
+    .produtos3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .cada {
+        border: 4px solid #0F3365;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        padding: 20px;
+        margin: 10px;
+        width: 30%;
+    }
+
+    .pneu2,
+    .pneu3,
+    .pneu4 {
+        padding: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .cartao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .cartaoIMG {
+        width: 100%;
+        height: auto;
+    }
+
+    .pagamento {
+        width: 100%;
+        height: 280px;
+        font-size: 24px;
+    }
+
+    span,
+    span3 {
+        font-size: inherit;
+    }
+
+    .logoGrande {
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+        margin: 10px;
+    }
+
+    .sobreNos2 {
+        font-size: 16px;
+
+        margin: 14px;
+    }
+
+    .direitos {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .cada {
+        width: 65%;
+        height: 330px;
+        margin-top: 15px;
+    }
+
+    span3 {
+        color: #FFF;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        margin-top: -5px;
+    }
+}

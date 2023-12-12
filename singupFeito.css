@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Seoul', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Seoul';
+    justify-content: center;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Seoul';
+    src: url(SeoulHangang\ CBL\ Regular.ttf);
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login {
+    width: 611px;
+    height: 460px;
+    border-radius: 28px;
+    background: #134681;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+.login1 {
+    margin-bottom: 90px;
+    color: #FFF;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.voltar1 {
+    color: #000;
+    font-size: 21;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font: 500 20px black;
+}
+
+.voltar {
+    display: flex;
+    width: 377.326px;
+    height: 45.256px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    flex-direction: column;
+    margin-bottom: 20px;
+}

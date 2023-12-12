@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Seoul', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Seoul';
+    justify-content: center;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Seoul';
+    src: url(SeoulHangang\ CBL\ Regular.ttf);
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login {
+    width: 450px;
+    height: 680px;
+    border-radius: 10px;
+    background: #134681;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+.buscar {
+    width: 377.326px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8.816px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    flex-direction: column;
+    padding: 4px;
+    margin-top: 25px;
+}
+
+.buscar input {
+    font: 600 15px black;
+}
+
+#caixas {
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+#senha {
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.buscar2 {
+    width: 377.326px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8.816px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    flex-direction: column;
+    padding: 4px;
+    margin-top: 25px;
+}
+
+.login2 {
+    margin-bottom: 10px;
+}
+
+.sla {
+    color: #FFF;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.buscar2 input {
+    font: 600 15px black;
+}
+
+.login3 {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+
+.login4 {
+    color: #000;
+    font-size: 21.16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.singUp {
+    padding: 10px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+.singUp1 {
+    color: #000;
+    font-size: 21.16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Estilos para dispositivos com largura máxima de 376px */
+@media screen and (max-width: 376px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    body {
+        font-family: 'Seoul';
+        justify-content: center;
+        text-align: center;
+        background-color: #cbcbcb;
+    }
+
+    .tudo {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .login {
+        width: 80%;
+        max-width: 320px;
+        height: auto;
+        border-radius: 20px;
+        background: #134681;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 70px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .buscar,
+    .buscar2 {
+        width: 90%;
+        max-width: 320px;
+        height: 40px;
+        border-radius: 10px;
+        background: #FFF;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        flex-direction: column;
+        padding: 4px;
+        margin-top: 15px;
+    }
+
+    .buscar input,
+    .buscar2 input {
+        font: 600 14px black;
+    }
+
+    .login2 {
+        margin-bottom: 10px;
+    }
+
+    .sla {
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .login3 {
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-top: 50px;
+    }
+
+    .login4,
+    .singUp1 {
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .buscar {
+        width: 253px;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .buscar2 {
+        width: 253px;
+        height: auto;
+        border-radius: 5px;
+    }
+}

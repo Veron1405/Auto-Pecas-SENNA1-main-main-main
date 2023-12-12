@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Seoul', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-family: 'Seoul';
+}
+
+@font-face {
+    font-family: 'Seoul';
+    src: url(SeoulHangang\ CBL\ Regular.ttf);
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #134681;
+    height: 41px;
+    color: white;
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    font: 700 20px white
+}
+
+span {
+    color: #ff0000;
+}
+
+span2 {
+    color: #00ff1a;
+}
+
+
+.icone {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+}
+
+.conta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-align: justify;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.pneu {
+    width: 300px;
+    height: 310px;
+    flex-shrink: 0;
+    padding: 40px;
+    border: 4px solid #134681;
+    border-radius: 12px;
+    margin-right: 40px;
+}
+
+.titulo {
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.pneu2 {
+    color: #000;
+    text-align: justify;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 70px;
+}
+
+.preco {
+    text-align: justify;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+
+.compreAgora {
+    display: flex;
+    border-radius: 14.913px;
+    background: #26BC00;
+    width: 555px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.compreAgora2 {
+    color: #000;
+    text-align: justify;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+@media screen and (max-width: 376px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: 'Seoul', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    body {
+        font-family: 'Seoul';
+    }
+
+    @font-face {
+        font-family: 'Seoul';
+        src: url(SeoulHangang\ CBL\ Regular.ttf);
+    }
+    
+    .topo {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 150px;
+        height: auto;
+        margin: 10px auto;
+        display: none;
+    }
+
+    .cabeçalho {
+        display: flex;
+        text-align: center;
+        font-size: 16px;
+        justify-content: space-evenly;
+    }
+
+    span {
+        color: #ff0000;
+    }
+
+    span2 {
+        color: #00ff1a;
+    }
+
+    .icone {
+        width: 36px;
+        height: 36px;
+        padding: 8px;
+    }
+
+    .conta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tudo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        text-align: justify;
+        padding: 20px;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .pneu {
+        width: 60%;
+        max-width: 300px;
+        height: auto;
+        flex-shrink: 0;
+        padding: 20px;
+        border: 4px solid #134681;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+
+    .titulo {
+        color: #000;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .pneu2 {
+        color: #000;
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    .preco {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .compreAgora {
+        border-radius: 12px;
+        background: #26BC00;
+        width: 100%;
+        max-width: 300px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .compreAgora2 {
+        color: #000;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .icone {
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+    }
+}

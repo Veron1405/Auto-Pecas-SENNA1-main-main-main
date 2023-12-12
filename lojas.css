@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Seoul', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-family: 'Seoul';
+}
+
+@font-face {
+    font-family: 'Seoul';
+    src: url(SeoulHangang\ CBL\ Regular.ttf);
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #134681;
+    height: 41px;
+    color: white;
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    font: 700 20px white
+}
+
+span {
+    color: #134681;
+}
+
+
+.icone {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+}
+
+.conta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 {
+    width: 500px;
+    height: 563px;
+    background-color: #134681;
+}
+
+.nossasLojas {
+    width: 1126px;
+    height: 563px;
+}
+
+.texto1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #134681;
+    padding: 90px;
+    height: 384px;
+}
+
+.senna2 {
+    display: flex;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font: 300 25px black;
+}
+
+
+.lojas1 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.roda {
+    width: 242px;
+    height: 250px;
+    padding: 35px;
+}
+
+.lojas2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lojas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.lojas3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cada {
+    border: solid 2px black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    margin: 20px;
+    background-color: #134681;
+}
+
+.pneu2 {
+    padding: 20px;
+    font: 700 20px white;
+    color: #ffffff;
+}
+
+.pneu3 {
+    padding: 20px;
+    font: 700 20px white;
+    color: #ffffff;
+}
+
+.pneu4 a {
+    padding: 20px;
+    font: 700 20px white;
+    color: #ffffff;
+}
+
+.cartao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.cartaoIMG {
+    width: 820px;
+    height: 505px;
+}
+
+.pagamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #134681;
+    height: 505px;
+    width: 800px;
+}
+
+span3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.rodape {
+    width: 200px;
+    height: auto;
+}
+
+.direitos {
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 376px) {
+    body {
+        font-family: 'Seoul', sans-serif;
+    }
+
+    .topo {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 150px;
+        height: auto;
+        margin: 10px auto;
+        display: none;
+    }
+
+    .cabeçalho {
+        display: flex;
+        text-align: center;
+        font-size: 16px;
+        justify-content: space-evenly;
+    }
+
+    .imagem1 {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .box1,
+    .nossasLojas {
+        width: 100%;
+        height: auto;
+    }
+
+    .texto1 {
+        font-size: 36px;
+        padding: 40px;
+        display: none;
+    }
+
+    .senna2 {
+        font-size: 18px;
+    }
+
+    .lojas {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .cartaoIMG {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .pagamento {
+        width: 100%;
+        height: 280px;
+        font-size: 24px;
+    }
+
+    span,
+    span3 {
+        font-size: inherit;
+    }
+
+    .sobreNos2 {
+        font-size: 16px;
+
+        margin: 14px;
+    }
+
+    .direitos {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .icone {
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+    }
+
+    .lojas1 {
+        padding: 0px;
+    }
+
+    .lojas2 {
+        padding: 0px;
+    }
+
+    .lojas3 {
+        padding: 0px;
+    }
+
+    .cada {
+        width: 65%;
+        height: 330px;
+    }
+
+    .cartao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    span2 {
+        color: #134681;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    span3 {
+        color: #FFF;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+}

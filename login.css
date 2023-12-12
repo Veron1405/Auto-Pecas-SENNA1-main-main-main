@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Seoul', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Seoul', sans-serif;
+    justify-content: center;
+    text-align: center;
+    background-color: #f1f1f1cc
+}
+
+@font-face {
+    font-family: 'Seoul';
+    src: url(SeoulHangang\ CBL\ Regular.ttf);
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login {
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+    background: #134681;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 110px;
+    border: 3px solid black;
+}
+
+.buscar {
+    width: 377.326px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8.816px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    flex-direction: column;
+    padding: 4px;
+    margin-top: 80px;
+}
+
+.buscar input {
+    font: 600 15px black;
+}
+
+#caixas {
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+#senha {
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.buscar2 {
+    width: 377.326px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8.816px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    flex-direction: column;
+    padding: 4px;
+    margin-top: 55px;
+}
+
+.sla {
+    display: flex;
+    color: #FFF;
+    font-size: 37px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.buscar2 input {
+    font: 600 15px black;
+}
+
+.login3 {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 140px;
+}
+
+.login4 {
+    color: #000;
+    font-size: 21.16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.singUp {
+    padding: 10px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    display: none;
+}
+
+.singUp1 {
+    color: #000;
+    font-size: 21.16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cadastro {
+    font: 300 20px white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.span3 {
+    color: #ffffff;
+}
+
+.span3:hover {
+    color: #000000;
+}
+
+@media screen and (max-width: 376px) {
+    body {
+        font-family: 'Seoul';
+        justify-content: center;
+        text-align: center;
+        background-color: #e4e4e4;
+    }
+
+    .tudo {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .login {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 15px;
+        background: #12437b;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+        padding: 20px;
+        border: 3px solid black;
+    }
+
+    .buscar,
+    .buscar2 {
+        width: 90%;
+        max-width: 300px;
+        height: 40px;
+        border-radius: 8px;
+        background: #FFF;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        flex-direction: column;
+        padding: 4px;
+        margin-top: 15px;
+    }
+
+    .buscar input,
+    .buscar2 input {
+        font: 600 14px black;
+
+    }
+
+    .sla {
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .login3 {
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-top: 80px;
+    }
+
+    .login4,
+    .singUp1 {
+        color: #000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .login2 {
+        width: 80%;
+        height: auto;
+    }
+
+    .buscar {
+        width: 233px;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .buscar2 {
+        width: 233px;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    .cadastro {
+        margin-bottom: -5px;
+    }
+
+    .span3:hover {
+        color: #000000;
+    }
+}

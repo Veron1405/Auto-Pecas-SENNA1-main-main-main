@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Seoul', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Seoul';
+    justify-content: center;
+    text-align: center;
+    background-color: #f1f1f1cc
+}
+
+@font-face {
+    font-family: 'Seoul';
+    src: url(SeoulHangang\ CBL\ Regular.ttf);
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login {
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+    background: #134681;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 110px;
+    border: 3px solid black;
+    flex-direction: column;
+}
+
+
+.login1 {
+    margin-bottom: 90px;
+    color: #FFF;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.voltar1 {
+    color: #000;
+    font-size: 21.158px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font: 500 20px black;
+}
+
+.voltar {
+    display: flex;
+    width: 377.326px;
+    height: 45.256px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Estilos para dispositivos com largura máxima de 376px */
+@media screen and (max-width: 376px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    body {
+        font-family: 'Seoul';
+        justify-content: center;
+        text-align: center;
+        background-color: #e4e4e4;
+    }
+
+    .tudo {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .login {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 20px;
+        background: #134681;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 150px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .login1 {
+        margin-bottom: 30px;
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .voltar1 {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .voltar {
+        width: 90%;
+        max-width: 300px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+}
